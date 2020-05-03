@@ -1,0 +1,321 @@
+/* 风格样式设置 */
+.ZhihuLogo {
+	fill: #0084ff;
+}
+
+.Icon {
+	vertical-align: text-bottom;
+	fill: currentColor;
+}
+
+/* 卡片设置 */
+.Card {
+	margin-bottom: 10px;
+	background: #fff;
+	overflow: hidden;
+	border-radius: 2px;
+	box-shadow: 0 1px 3px rgba(26, 26, 26, .1);
+	box-sizing: border-box;
+}
+
+.noMarginCard {
+	margin-bottom: 0 !important;
+}
+
+/* 选项卡设置 */
+.tabs {
+	border-bottom: 1px solid #f0f2f7;
+}
+
+/* 链接设置 */
+.link {
+	align-items: center;
+	display: flex;
+	font-size: 16px;
+	margin: 0 22px;
+}
+
+/* 颜色设置 */
+.black{
+	color: #393939;
+}
+.grey{
+	color: #8590a6;
+}
+
+/* display设置 */
+.d-inline-block{
+	display: inline-block;
+}
+
+/* position设置  */
+.p-sticky{
+	position: sticky;
+}
+
+.p-relative{
+	position: relative;
+}
+
+/* 输入框设置 */
+.Input {
+    flex: 1 1;
+    padding: 0;
+    overflow: hidden;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    background: transparent;
+    border: none;
+    resize: none;
+}
+
+/* 字体设置 */
+.w-title {
+	font-size: 18px;
+	font-weight: 700;
+	color: rgba(0, 0, 0, 0.8);
+}
+
+.w-sub-title {
+	font-size: 16px;
+	font-weight: 500;
+	color: rgba(0, 0, 0, 0.7);
+}
+
+.span {
+	font-size: 15px;
+	color: #b4b4b4;
+}
+
+.meta {
+	font-size: 12px;
+	color: #b4b4b4;
+}
+
+/* ---------主题设置----------- */
+.w-primary-theme {
+	background-color: #009688;
+	color: #fff;
+}
+
+.w-warning-theme {
+	background-color: #fb8c00;
+	color: #fff;
+}
+
+.w-success-theme {
+	background-color: #4caf50;
+	color: #fff;
+}
+
+.w-disable-theme {
+	background-color: #e0e0e0;
+	color: #fff;
+}
+
+/* --------------按钮设置------------ */
+.comments {
+	border: none;
+	margin-right: 25px;
+	background-color: rgba(68, 51, 74, 0.8);
+	padding: 7px;
+	border-radius: 5px;
+	cursor: pointer;
+	transition-duration: 0.4s;
+	color: white;
+}
+
+.comments:hover {
+	box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 10px 20px 0 white;
+}
+
+.comments:active {
+	background-color: rgb(68, 51, 74);
+	box-shadow: 0 5px #666;
+	transform: translateY(10px);
+}
+
+.btn {
+	display: inline-block;
+	padding: 0 16px;
+	font-size: 14px;
+	line-height: 32px;
+	color: #8590a6;
+	text-align: center;
+	cursor: pointer;
+	background: none;
+	border: 1px solid;
+	border-radius: 3px;
+}
+
+.Button {
+    display: inline-block;
+    padding: 0 16px;
+    font-size: 14px;
+    line-height: 32px;
+    color: #8590a6;
+    text-align: center;
+    cursor: pointer;
+    background: none;
+    border: 1px solid;
+    border-radius: 3px;
+}
+
+.Button--plain {
+    height: auto;
+    padding: 0;
+    line-height: inherit;
+    background-color: transparent;
+    border: none!important;
+    border-radius: 0;
+}
+
+.VoteButton {
+    padding: 0 10px;
+    color: #0084ff!important;
+    background: rgba(0,132,255,.1)!important;
+    border-color: transparent!important;
+}
+
+.btn-bule {
+	color: #0084ff;
+	border-color: #0084ff;
+}
+
+.btn-primary {
+	color: #fff;
+	background-color: #0084ff;
+}
+
+.SearchBar-searchButton {
+	color: #8590a6;
+	margin-left: 12px;
+	padding: 0 12px;
+	background: transparent;
+	border-color: transparent;
+	border-bottom-left-radius: 0;
+	border-top-left-radius: 0;
+}
+
+.w-btn-round {
+	border-radius: 20px;
+}
+
+.w-btn-circle {
+	border-radius: 50%;
+}
+
+.w-btn-normal {
+	width: 120px;
+	height: 35px;
+}
+
+.w-btn-large {
+	width: 140px;
+	height: 45px;
+}
+
+/* 表单元素样式 */
+.w-input-box {
+	display: block;
+	border: 1px solid #eee;
+	border-radius: 5px;
+	height: 35px;
+}
+
+/* 阴影样式 */
+.w-shadow {
+	box-shadow: 2px 5px 10px #aaa;
+}
+
+/* 搜索框设置 */
+.Input {
+	flex: 1 1;
+	padding: 0;
+	overflow: hidden;
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	background: transparent;
+	border: none;
+	resize: none;
+	color: #1a1a1a;
+	height: 24px;
+	/* width: 00px; */
+	line-height: 24px;
+}
+
+.Input-wrapper--grey {
+	background: #f6f6f6;
+}
+
+.SearchBar-input {
+	width: 326px;
+	padding-left: 12px;
+	margin-left: 30px;
+	padding-right: 0;
+	transition: width .2s ease, background .3s ease;
+}
+
+.Input-wrapper {
+	position: relative;
+	display: flex;
+	align-items: center;
+	width: 360px;
+	height: 34px;
+	padding: 4px 10px;
+	font-size: 14px;
+	background: #f6f6f6;
+	border: 1px solid #ebebeb;
+	border-radius: 3px;
+	box-sizing: border-box;
+	transition: background .2s, border .2s;
+}
+
+/* 头像样式 */
+.w-avatar {
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+}
+
+.roll {
+	width: 90%;
+	background-image: linear-gradient(#e66465, #9198e5);
+	position: relative;
+	animation: rolll 30s infinite;
+	padding: 20px;
+	margin-top: 100px;
+	border-radius: 20px;
+}
+
+/* .roll p {
+	color: rgb(31, 31, 31);
+}
+
+@keyframes rolll {
+	0% {
+		transform: rotate(-7deg);
+	}
+
+	18% {
+		transform: rotate(7deg);
+	}
+
+	20% {
+		transform: rotate(-7deg);
+	}
+
+	80% {
+		transform: rotate(7deg);
+	}
+
+	85% {
+		transform: rotate(-7deg);
+	}
+
+	100% {
+		transform: rotate(7deg);
+	}
+} */

@@ -1,0 +1,560 @@
+/****************************** 发现页 *******************************/
+/* 主体部分 */
+.ExploreHomePage {
+	margin: 32px auto 107px;
+	width: 1020px;
+}
+
+/* 发现页面所有头部 */
+.ExploreHomePage-ContentSection-header {
+	/* display: flex; */
+	align-items: center;
+	height: 65px;
+
+}
+
+/* 发现页面所有头部标签 */
+.ExploreHomePage-ContentSection-header span {
+	margin-left: 12px;
+	font-size: 25px;
+	font-weight: 600;
+	font-synthesis: style;
+}
+
+/* 专题主体部分 */
+.ExploreHomePage-ContentSection-body {
+	padding: 24px 0 20px;
+}
+
+/* 专题主体设计 */
+.ExploreHomePage-specials {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-content: space-between;
+	height: 920px;
+}
+
+/* 专题卡片 */
+.ExploreSpecialCard {
+	width: 490px;
+	height: 450px;
+	border-radius: 4px;
+	box-shadow: 0 1px 3px 0 rgba(26, 26, 26, .1);
+	background-color: #fff;
+	overflow: hidden;
+	flex-shrink: 0;
+}
+
+/* 专题卡片背景图 */
+.ExploreSpecialCard-banner {
+	display: block;
+	height: 200px;
+}
+
+.ExploreSpecialCard-banner img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+/* 专题卡片头部 */
+.ExploreSpecialCard-header {
+	display: flex;
+	align-items: center;
+	margin: 0 24px;
+	padding: 30px 0;
+	height: 110px;
+	box-sizing: border-box;
+	border-bottom: 1px solid #ebebeb;
+}
+
+/* 专题卡片头部信息 */
+.ExploreSpecialCard-info {
+	flex: 1 1;
+}
+
+/* 专题卡片头部标题 */
+.ExploreSpecialCard-title {
+	width: 330px;
+	line-height: 28px;
+	max-height: 56px;
+	font-size: 20px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	font-weight: 600;
+	font-synthesis: style;
+}
+
+/* 专题卡片头部标题下方计数 */
+.ExploreSpecialCard-count {
+	margin-top: 4px;
+	height: 17px;
+	line-height: 17px;
+	font-size: 12px;
+	color: #999;
+}
+
+.ExploreSpecialCard-count span+span:before {
+	content: "\B7";
+	margin: 0 4px;
+}
+
+/* 专题卡片头部标题右侧关注按钮 */
+.ExploreSpecialCard-followButton {
+	flex-shrink: 0;
+	margin-left: 20px;
+}
+
+.ExploreFollowButton:not(.ExploreFollowButton--colored) {
+	color: #0084ff;
+	background-color: rgba(0, 132, 255, .08);
+}
+
+.ExploreSpecialCard-followButton button {
+	width: 102px;
+}
+
+.ExploreFollowButton {
+	height: 34px;
+	width: 88px;
+	border-radius: 3px;
+	font-size: 14px;
+	font-weight: 600;
+	font-synthesis: style;
+}
+
+/* 专题卡片内容列表 */
+.ExploreSpecialCard-contentList {
+	margin: 20px 24px;
+}
+
+.ExploreSpecialCard-contentList p {
+	display: block;
+	margin: 10px auto 10px;
+	height: 40px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+/* 圆桌主体部分 */
+.ExploreHomePage-roundtables {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-content: space-between;
+	height: 904px;
+}
+
+/* 圆桌卡片 */
+.ExploreRoundtableCard {
+	width: 490px;
+	height: 442px;
+	border-radius: 4px;
+	background-color: #fff;
+	-webkit-box-shadow: 0 1px 3px 0 rgba(26, 26, 26, .1);
+	box-shadow: 0 1px 3px 0 rgba(26, 26, 26, .1);
+	overflow: hidden;
+	flex-shrink: 0;
+}
+
+/* 圆桌卡片头部内容 */
+.ExploreRoundtableCard-headerContainer {
+	position: relative;
+	height: 240px;
+}
+
+/* 圆桌卡片头部背景图 */
+.ExploreRoundtableCard-headerBackgrounds {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	width: 240px;
+}
+
+/* 圆桌卡片头部 */
+.ExploreRoundtableCard-header {
+	position: relative;
+	width: 320px;
+	padding: 68px 24px 24px;
+}
+
+/* 圆桌卡片头部标题 */
+.ExploreRoundtableCard-title {
+	display: block;
+	height: 28px;
+	line-height: 28px;
+	color: #fff;
+	font-size: 20px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-weight: 600;
+	font-synthesis: style;
+}
+
+/* 圆桌卡片头部关注按钮 */
+.ExploreFollowButton {
+	height: 34px;
+	width: 88px;
+	border-radius: 3px;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.ExploreRoundtableCard-followButton {
+	position: absolute;
+	right: 24px;
+	bottom: 24px;
+	z-index: 10;
+}
+
+.ExploreRoundtableCard-followButton button {
+	width: 102px;
+	cursor: pointer;
+	background-color: #ffffff;
+	border: none;
+	outline: none;
+}
+
+.ExploreFollowButton--colored {
+	background-color: #fff;
+}
+
+/* 圆桌问答列表 */
+.ExploreRoundtableCard-questionList {
+	padding: 20px 24px 24px;
+}
+
+.ExploreRoundtableCard-questionItem {
+	display: block;
+	margin-top: 10px;
+}
+
+.ExploreRoundtableCard-questionTitle {
+	display: block;
+	height: 21px;
+	line-height: 21px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.ExploreRoundtableCard-questionCounts {
+	display: flex;
+	align-items: center;
+	margin-top: 10px;
+	height: 17px;
+	line-height: 17px;
+	font-size: 12px;
+	color: #999;
+}
+
+/* 收藏部分 */
+.ExploreHomePage-collections {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-content: space-between;
+	height: 748px;
+}
+
+.ExploreCollectionCard {
+	width: 490px;
+	height: 364px;
+	border-radius: 4px;
+	box-shadow: 0 1px 3px 0 rgba(26, 26, 26, .1);
+	background-color: #fff;
+}
+
+.ExploreCollectionCard-header {
+	display: flex;
+	margin: 0 24px;
+	padding: 24px 0 20px;
+	box-sizing: border-box;
+	height: 112px;
+	border-bottom: 1px solid #ebebeb;
+	overflow: hidden;
+}
+
+.ExploreCollectionCard-info {
+	flex: 1 1;
+	/* 超出区域不显示 */
+	/* overflow: hidden; */
+}
+
+.ExploreCollectionCard-title {
+	display: block;
+	height: 28px;
+	line-height: 28px;
+	font-size: 20px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-weight: 600;
+	font-synthesis: style;
+}
+
+.ExploreCollectionCard-relatedMembers {
+	display: flex;
+	align-items: center;
+	margin-top: 12px;
+}
+
+.ExploreCollectionCard-creator {
+	height: 28px;
+	line-height: 27px;
+	display: flex;
+	align-items: center;
+}
+
+.ExploreCollectionCard-creatorAvatar {
+	height: 28px;
+	line-height: 28px;
+	position: relative;
+	display: inline-block;
+	color: inherit;
+	text-decoration: none;
+}
+
+.ExploreCollectionCard-creatorAvatar img {
+	background: #fff;
+	border-radius: 2px;
+	width: 28px;
+	height: 28px;
+}
+
+.ExploreCollectionCard-creatorName {
+	margin-left: 8px;
+	color: #444;
+	font-weight: 500;
+}
+
+.ExploreCollectionCard-creatorSuffix {
+	margin-left: 4px;
+	color: #999;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.ExploreCollectionCard-followers {
+	margin-left: 12px;
+	padding-left: 12px;
+	height: 19px;
+	line-height: 19px;
+	font-size: 14px;
+	color: #999;
+	border-left: 2px solid #ebebeb;
+}
+
+.ExploreCollectionCard-followButton {
+	margin-left: 20px;
+}
+
+
+.ExploreCollectionCard-followButton button {
+	width: 102px;
+}
+
+.ExploreFollowButton {
+	height: 34px;
+	width: 88px;
+	border-radius: 3px;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.ExploreCollectionCard-contentList {
+	margin: 20px 24px;
+	height: 164px;
+}
+
+.ExploreCollectionCard-contentTitle {
+	display: block;
+	height: 21px;
+	line-height: 21px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-weight: 600;
+}
+
+.ExploreCollectionCard-contentExcerpt {
+	margin-top: 4px;
+	height: 21px;
+	line-height: 21px;
+	color: #444;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.ExploreCollectionCard-contentTags span {
+	flex-shrink: 0;
+	margin: 0 3px;
+}
+
+.ExploreCollectionCard-contentTypeTag {
+	height: 20px;
+	line-height: 20px;
+	padding: 0 4px;
+	background-color: #f6f6f6;
+	color: #999;
+	font-size: 12px;
+	margin-right: 8px;
+}
+
+.ExploreCollectionCard-contentCountTag {
+	height: 17px;
+	line-height: 17px;
+	font-size: 12px;
+	color: #999;
+}
+
+.ExploreCollectionCard-contentCountTag+.ExploreCollectionCard-contentCountTag:before {
+	content: "\B7";
+	margin: 0 3px;
+}
+
+.ExploreCollectionCard-contentTags {
+	display: flex;
+	align-items: center;
+	margin-top: 6px;
+}
+
+.ExploreCollectionCard-collectedContentCount {
+	display: flex;
+	align-items: center;
+	/* margin: 20px 24px 0; */
+	height: 24px;
+	font-size: 14px;
+	color: #8590a6;
+	font-weight: 600;
+	margin: 20px 24px 0 1px;
+}
+
+.ExploreCollectionCard-collectedContentCount span {
+	margin: 0 4px 0 24px;
+}
+
+/* 专栏部分 */
+.ExploreHomePage-section+.ExploreHomePage-section {
+	margin-top: 32px;
+}
+
+.ExploreHomePage-columns {
+	display: flex;
+	justify-content: space-between;
+}
+
+/* 专栏主题部分 */
+.ExploreHomePage-ContentSection-body {
+	padding: 24px 0 20px;
+}
+
+.ExploreHomePage-columns {
+	display: flex;
+	justify-content: space-between;
+}
+
+/* 专栏卡片 */
+.ExploreHomePage-columnCard {
+	flex: 1 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 28px 24px;
+	box-sizing: border-box;
+	min-width: 235px;
+	height: 313px;
+	border-radius: 4px;
+	box-shadow: 0 1px 3px 0 rgba(26, 26, 26, .1);
+	background-color: #fff;
+}
+
+.ExploreHomePage-columnCard+.ExploreHomePage-columnCard {
+    margin-left: 20px;
+}
+
+/* 专栏卡片头像 */
+.ExploreColumnCard-avatar {
+	display: block;
+	width: 80px;
+	height: 80px;
+}
+
+.ExploreColumnCard-avatar img {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+
+.ExploreColumnCard-title {
+	margin-top: 20px;
+	height: 22px;
+	line-height: 22px;
+	font-size: 16px;
+	max-width: 187px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-weight: 600;
+}
+
+.ExploreColumnCard-count {
+	margin-top: 4px;
+	height: 17px;
+	line-height: 17px;
+	font-size: 12px;
+	color: #999;
+}
+
+.ExploreColumnCard-count span+span:before {
+    content: "\B7";
+    margin: 0 3px;
+}
+
+.ExploreColumnCard-intro {
+    margin-top: 20px;
+    height: 40px;
+    line-height: 20px;
+    font-size: 14px;
+    color: #444;
+    text-align: center;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+/* 进入专栏按钮 */
+.ExploreColumnCard-entryButton {
+    margin-top: 20px;
+    padding: 0 16px;
+    height: 34px;
+    font-size: 14px;
+    color: #0084ff;
+    background-color: rgba(0,132,255,.08);
+    border-radius: 3px;
+    font-weight: 600;
+    font-synthesis: style;
+}
+
+
+.ExploreHomePage-ContentSection-moreButton,
+.ExploreHomePage-ContentSection-moreButton a {
+	display: flex;
+	justify-content: center;
+}
+
+.ExploreHomePage-ContentSection-moreButton a {
+	align-items: center;
+	padding: 0 14px 0 24px;
+	height: 48px;
+	background-color: #fff;
+	box-shadow: rgba(26, 26, 26, .1);
+	border-radius: 25px;
+	color: #8590a6;
+	cursor: pointer;
+	font-weight: 600;
+	font-synthesis: style;
+}

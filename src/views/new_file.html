@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+			* {
+				/* margin: auto; */
+			}
+
+			.d-inline-block {
+				display: inline-block;
+			}
+
+			.t-center {
+				text-align: center;
+			}
+
+			.v-middle {
+				vertical-align: middle;
+			}
+
+			.d-table-cell {
+				display: table-cell;
+			}
+
+			.container {
+				background-color: #F3DDD8;
+				position: relative;
+				
+				height: calc(100vh);
+				/* line-height: calc(100vh); */
+			}
+
+			.main {
+				position: absolute;
+				/* top: 50%; */
+				transform: translateY(-50%) translateX(-50%);
+				width: 600px;
+				height: 400px;
+				line-height: 400px;
+				background-color: #E6BBB2;
+			}
+
+			p {
+				width: 300px;
+				height: 200px;
+				line-height: 200px;
+				background-color: #D8998D;
+			}
+
+			span {
+				width: 150px;
+				height: 100px;
+				line-height: 100px;
+				background-color: #CA7868;
+				color: #BC5743;
+			}
+		</style>
+	</head>
+
+	<body class="container t-center">
+		<div class="main d-inline-block">
+			<p class="d-inline-block">
+				<span class="d-inline-block">123</span>
+			</p>
+		</div>
+
+	</body>
+</html>
